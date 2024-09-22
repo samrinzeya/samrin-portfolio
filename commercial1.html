@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commercial1 Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+
+        <div class="home-button">
+            <a href="index.html" class="back-home-btn">Back to Home</a>
+          </div>
+      <div class="residence1-logo"><h2><b>Ravissant Gallery</b></h2></div>
+
+  <div class="gallery-container">
+    <img src="assets/Commercial1/8.png" alt="Image 1" onclick="openModal(this)">
+    <img src="assets/Commercial1/2.jpeg" alt="Image 2" onclick="openModal(this)">
+    <img src="assets/Commercial1/3.jpeg" alt="Image 3" onclick="openModal(this)">
+    <img src="assets/Commercial1/4.jpeg" alt="Image 4" onclick="openModal(this)">
+    <img src="assets/Commercial1/7.jpeg" alt="Image 5" onclick="openModal(this)">
+  </div>
+
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <div class="modal-content">
+      <img id="enlargedImage" src="">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
