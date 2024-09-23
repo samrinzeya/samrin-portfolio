@@ -450,8 +450,8 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 150vh;
-  padding: 8rem;
+  height: 70vh;
+  padding: 7rem;
 }
 
 .contact-info-upper-container {
