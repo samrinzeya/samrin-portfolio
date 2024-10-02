@@ -349,6 +349,8 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  margin-top: 125px;
+  height: 22rem;
 }
 
 .arrow {
@@ -376,6 +378,11 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+.text-container 
+p {
+  text-align: justify; 
 }
 
 /* EXPERIENCE SECTION */
@@ -451,7 +458,6 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  padding: 7rem;
 }
 
 .contact-info-upper-container {
