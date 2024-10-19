@@ -6,6 +6,11 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  .about-pic {
+    border-radius: 2rem;
+    height: 22rem;
+  }
+  
   #contact,
   #projects {
     height: fit-content;
@@ -21,7 +26,7 @@
   }
   #experience,
   .experience-details-container {
-    margin-top: 1rem;
+    margin-top: 10px;
   }
   #profile,
   .section-container {
@@ -43,7 +48,7 @@
     margin: 0 auto 2rem;
   }
   .about-containers {
-    margin-top: 0;
+    margin-top: 200px;
   }
 }
 
@@ -53,7 +58,7 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 57vh;
     margin-bottom: 0;
   }
   article {
@@ -86,10 +91,17 @@
     gap: 0.5rem;
     text-align: center;
   }
+  .experience-details-container {
+    margin-top: -150px;
+    padding: 30px
+
+  }
+
   .section__pic-container {
     width: auto;
     height: 46vw;
     justify-content: center;
+    margin: auto
   }
   .section__text__p2 {
     font-size: 1.25rem;
@@ -100,13 +112,32 @@
   }
   .text-container {
     width: 80%;
-    margin: 0 auto;
+    margin: 5px auto;
     text-align: justify;
-    padding: 20px; 
+    padding: 5px; 
     line-height: 1.6;
     color: #555578;
   }
+  .section__text{
+    margin: 30px;
+  }
   p {
-    text-align: justify; 
+    text-align: center; 
 }
+}
+
+@media (max-width: 768px) {
+  .about-pic {
+    margin-top: 60px; /* Adjust margin as needed */
+  }
+}
+
+@media (max-width: 480px) {
+  .about-pic {
+    margin-top: 20px; /* Further adjustment for margin */
+  }
+  .experience-details-container {
+    margin-top: -150px;
+    padding: 30px
+  }
 }

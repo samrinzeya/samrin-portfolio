@@ -72,10 +72,25 @@
   }
   
   .residence1-logo{
+    width: 500px; /* Set your desired width */
     padding: auto;
     margin: 2rem;
     margin-left: 8rem ;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    color: rgb(40, 31, 31);
+    border-radius: 10px; /* Rounded corners */
+    padding: 16px; /* Space inside the box */
   }
+  .project-name {
+    font-size: 20px; /* Change size as needed */
+    color: black;
+}
+
+.jindal {
+  color: black;
+    font-size: 20px; /* Larger size for 'Jindal' */
+    font-weight: bold; /* Makes 'Jindal' bold */
+}
 
   .back-home-btn {
     font-weight: 600;

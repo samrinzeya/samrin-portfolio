@@ -414,10 +414,22 @@ p {
 }
 
 article {
-  display: flex;
-  width: 10rem;
+  vertical-align: middle; /* Align items vertically */
   justify-content: space-around;
   gap: 0.5rem;
+  display: inline-block; /* Keeps articles inline */
+  width: 100%; /* Allows articles to take full width */
+  margin-bottom: 1rem; /* Space between articles */
+}
+article .icon {
+  width: 24px; /* Set icon size */
+  height: 24px; /* Set icon size */
+  vertical-align: middle; /* Align icon vertically */
+  margin-right: 10px; /* Space between icon and text */
+}
+.texti-container {
+  display: inline-block; /* Ensure text is inline */
+  vertical-align: middle; /* Align text vertically */
 }
 
 article .icon {
