@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial2 Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+
+    <div class="home-button">
+        <a href="index.html" class="back-home-btn">Back to Home</a>
+    </div>
+    <div class="residence1-logo">
+        <span class="project-name">Project Name: </span>
+        <span class="jindal">Clinic</span>
+        <p><span class="project-name">Location: </span>
+            <span class="jindal">Muzaffarpur, Bihar</span>
+        </p>
+        <p><span class="project-name">Role: </span>
+            <span class="jindal">Planning, Photoshop, 3d Visualisation</span>
+        </p>
+    </div>
+    <div class="gallery-container">
+        <img src="assets/Commercial4/commercial_1.jpeg" alt="Image 2" onclick="openModal(this)">
+        <img src="assets/Commercial4/commercial_7.jpeg" alt="Image 2" onclick="openModal(this)">
+        <img src="assets/Commercial4/commercial_3.jpeg" alt="Image 2" onclick="openModal(this)">
+        <img src="assets/Commercial4/commercial_4.jpeg" alt="Image 2" onclick="openModal(this)">
+        <img src="assets/Commercial4/commercial_5.jpeg" alt="Image 2" onclick="openModal(this)">
+        <img src="assets/Commercial4/commercial_6.jpeg" alt="Image 2" onclick="openModal(this)">
+        <img src="assets/Commercial4/commercial_2.jpeg" alt="Image 2" onclick="openModal(this)">
+    </div>
+
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <div class="modal-content">
+            <img id="enlargedImage" src="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
